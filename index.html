@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+    <link rel="stylesheet" href="/src/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Dinamic</h1>
+        <div class="latar" id="latar"><p></p></div>
+        <div class="pilihan">
+            <button class="red" id="red" value="red" id="blue" onclick="gantiRed()"></button>
+            <button class="green" id="green" value="green" id="blue" onclick="gantiGreen()"></button>
+            <button class="blue" value="blue" id="blue" onclick="gantiBlue()"></button>
+            <button class="yellow" id="yellow" value="yellow" id="blue" onclick="gantiYellow()"></button>
+            <button class="purple" id="purple" value="purple" id="blue" onclick="gantiPurple()"></button>
+        </div>
+        <input id="inputWarna" type="text" placeholder="Kamu juga bisa ketik warna yang kamu mau..."/>
+        <button id="gantiWarna" class="gantiWarna" onclick="gantiWarna()">Ganti</button>
+        <span>Author : Dede Kurniawan</span>
+    </div>
+</body>
+<script src="src/index.js"></script>
+</html>
